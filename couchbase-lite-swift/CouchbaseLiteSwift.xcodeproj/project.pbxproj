@@ -1,0 +1,1362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A075C95276B3B4600E47677 /* Project_Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1A075C91276B3B4600E47677 /* Project_Debug.xcconfig */; };
+		1A075C96276B3B4600E47677 /* Project_Release_EE.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1A075C92276B3B4600E47677 /* Project_Release_EE.xcconfig */; };
+		1A075C97276B3B4600E47677 /* Project_Debug_EE.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1A075C93276B3B4600E47677 /* Project_Debug_EE.xcconfig */; };
+		1A075C98276B3B4600E47677 /* Project_Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1A075C94276B3B4600E47677 /* Project_Release.xcconfig */; };
+		1A1E1CDF2769F6CC00972508 /* CouchbaseLiteSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1E1CDE2769F6C800972508 /* CouchbaseLiteSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A20D74A2782EE3300834701 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A20D7492782EE3200834701 /* Document.swift */; };
+		1A20D74B2782EE3300834701 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A20D7492782EE3200834701 /* Document.swift */; };
+		1A4F68BA2744FD63003A29EB /* CouchbaseLiteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4F68AF2744FD63003A29EB /* CouchbaseLiteSwift.framework */; };
+		1A4F68D02744FE0B003A29EB /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F68CE2744FE0B003A29EB /* Database.swift */; };
+		1A4F68D12744FE0B003A29EB /* DatabaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F68CF2744FE0B003A29EB /* DatabaseConfiguration.swift */; };
+		1A4F68D42744FE25003A29EB /* DatabaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F68D32744FE24003A29EB /* DatabaseTest.swift */; };
+		1A4F68F2274506BF003A29EB /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4F68E52745039D003A29EB /* CouchbaseLite.framework */; };
+		1A64D51B278407920053349E /* MutableDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64D51A278407920053349E /* MutableDocument.swift */; };
+		1A64D51C278407920053349E /* MutableDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64D51A278407920053349E /* MutableDocument.swift */; };
+		1A64D525278427930053349E /* CouchbaseLiteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64D524278427930053349E /* CouchbaseLiteError.swift */; };
+		1A64D526278427930053349E /* CouchbaseLiteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64D524278427930053349E /* CouchbaseLiteError.swift */; };
+		1AE4F119277438800029AD74 /* CouchbaseLiteSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1E1CDE2769F6C800972508 /* CouchbaseLiteSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE4F11B277438800029AD74 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F68CE2744FE0B003A29EB /* Database.swift */; };
+		1AE4F11C277438800029AD74 /* DatabaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F68CF2744FE0B003A29EB /* DatabaseConfiguration.swift */; };
+		1AE4F11D277438800029AD74 /* EncryptionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62596B276C634200769586 /* EncryptionKey.swift */; };
+		1AE4F11F277438800029AD74 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4F68E52745039D003A29EB /* CouchbaseLite.framework */; };
+		1AE4F121277438800029AD74 /* Project_Release_EE.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1A075C92276B3B4600E47677 /* Project_Release_EE.xcconfig */; };
+		1AE4F122277438800029AD74 /* Project_Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1A075C91276B3B4600E47677 /* Project_Debug.xcconfig */; };
+		1AE4F123277438800029AD74 /* Project_Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1A075C94276B3B4600E47677 /* Project_Release.xcconfig */; };
+		1AE4F124277438800029AD74 /* Project_Debug_EE.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1A075C93276B3B4600E47677 /* Project_Debug_EE.xcconfig */; };
+		1AE4F12F2774388B0029AD74 /* DatabaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F68D32744FE24003A29EB /* DatabaseTest.swift */; };
+		1AE4F1312774388B0029AD74 /* CouchbaseLiteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4F68AF2744FD63003A29EB /* CouchbaseLiteSwift.framework */; };
+		1AE4F13F277443680029AD74 /* DatabaseTest_EE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE4F13E277443680029AD74 /* DatabaseTest_EE.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A210E92274E3E2D00D07BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4F68D62745039D003A29EB /* CBL_C.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 27984E092249A126000FE777;
+			remoteInfo = "CBL_C Framework";
+		};
+		1A4F68BB2744FD63003A29EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4F68A62744FD63003A29EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A4F68AE2744FD63003A29EB;
+			remoteInfo = CouchbaseLiteSwift;
+		};
+		1A4F68E02745039D003A29EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4F68D62745039D003A29EB /* CBL_C.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 271C2A2321CAC8920045856E;
+			remoteInfo = CBL_C;
+		};
+		1A4F68E22745039D003A29EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4F68D62745039D003A29EB /* CBL_C.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B61D7021D6B64A0027CCDB;
+			remoteInfo = "CBL_C Dylib";
+		};
+		1A4F68E42745039D003A29EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4F68D62745039D003A29EB /* CBL_C.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27984E0A2249A126000FE777;
+			remoteInfo = "CBL_C Framework";
+		};
+		1A4F68E62745039D003A29EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4F68D62745039D003A29EB /* CBL_C.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B61DA821D6E49D0027CCDB;
+			remoteInfo = CBL_Tests;
+		};
+		1A4F68E82745039D003A29EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4F68D62745039D003A29EB /* CBL_C.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 275B357C234812C800FE9CF0;
+			remoteInfo = CouchbaseLiteTests;
+		};
+		1AE4F117277438800029AD74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4F68D62745039D003A29EB /* CBL_C.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 27984E092249A126000FE777;
+			remoteInfo = "CBL_C Framework";
+		};
+		1AE4F13B277441980029AD74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4F68A62744FD63003A29EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE4F115277438800029AD74;
+			remoteInfo = CouchbaseLiteSwift_EE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A075C90276B3B3C00E47677 /* CouchbaseLiteSwift_EE.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = CouchbaseLiteSwift_EE.modulemap; path = support/CouchbaseLiteSwift_EE.modulemap; sourceTree = "<group>"; };
+		1A075C91276B3B4600E47677 /* Project_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Project_Debug.xcconfig; path = xcconfigs/Project_Debug.xcconfig; sourceTree = "<group>"; };
+		1A075C92276B3B4600E47677 /* Project_Release_EE.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Project_Release_EE.xcconfig; path = xcconfigs/Project_Release_EE.xcconfig; sourceTree = "<group>"; };
+		1A075C93276B3B4600E47677 /* Project_Debug_EE.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Project_Debug_EE.xcconfig; path = xcconfigs/Project_Debug_EE.xcconfig; sourceTree = "<group>"; };
+		1A075C94276B3B4600E47677 /* Project_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Project_Release.xcconfig; path = xcconfigs/Project_Release.xcconfig; sourceTree = "<group>"; };
+		1A1E1CDD2769F6C800972508 /* CouchbaseLiteSwift.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = CouchbaseLiteSwift.modulemap; path = support/CouchbaseLiteSwift.modulemap; sourceTree = "<group>"; };
+		1A1E1CDE2769F6C800972508 /* CouchbaseLiteSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CouchbaseLiteSwift.h; path = support/CouchbaseLiteSwift.h; sourceTree = "<group>"; };
+		1A20D73B2782E49000834701 /* prepare_project.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = prepare_project.sh; path = ../scripts/prepare_project.sh; sourceTree = "<group>"; };
+		1A20D7492782EE3200834701 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Document.swift; path = source/Document.swift; sourceTree = "<group>"; };
+		1A4F68AF2744FD63003A29EB /* CouchbaseLiteSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CouchbaseLiteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4F68B92744FD63003A29EB /* CouchbaseLiteSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouchbaseLiteSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4F68CE2744FE0B003A29EB /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Database.swift; path = source/Database.swift; sourceTree = "<group>"; };
+		1A4F68CF2744FE0B003A29EB /* DatabaseConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseConfiguration.swift; path = source/DatabaseConfiguration.swift; sourceTree = "<group>"; };
+		1A4F68D32744FE24003A29EB /* DatabaseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseTest.swift; path = tests/DatabaseTest.swift; sourceTree = "<group>"; };
+		1A4F68D62745039D003A29EB /* CBL_C.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CBL_C.xcodeproj; path = "vendor/couchbase-lite-C/CBL_C.xcodeproj"; sourceTree = "<group>"; };
+		1A4F68ED274504FF003A29EB /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = xcconfigs/Project.xcconfig; sourceTree = "<group>"; };
+		1A62596B276C634200769586 /* EncryptionKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptionKey.swift; sourceTree = "<group>"; };
+		1A64D51A278407920053349E /* MutableDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MutableDocument.swift; path = source/MutableDocument.swift; sourceTree = "<group>"; };
+		1A64D524278427930053349E /* CouchbaseLiteError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CouchbaseLiteError.swift; path = source/CouchbaseLiteError.swift; sourceTree = "<group>"; };
+		1AE4F12A277438800029AD74 /* CouchbaseLiteSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CouchbaseLiteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE4F1382774388B0029AD74 /* CouchbaseLiteSwiftTests_EE.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouchbaseLiteSwiftTests_EE.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE4F13E277443680029AD74 /* DatabaseTest_EE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseTest_EE.swift; path = ../tests/DatabaseTest_EE.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A4F68AC2744FD63003A29EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4F68F2274506BF003A29EB /* CouchbaseLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4F68B62744FD63003A29EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4F68BA2744FD63003A29EB /* CouchbaseLiteSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE4F11E277438800029AD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE4F11F277438800029AD74 /* CouchbaseLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE4F1302774388B0029AD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE4F1312774388B0029AD74 /* CouchbaseLiteSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1E1CD32769E2B300972508 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				1A1E1CDE2769F6C800972508 /* CouchbaseLiteSwift.h */,
+				1A1E1CDD2769F6C800972508 /* CouchbaseLiteSwift.modulemap */,
+				1A075C90276B3B3C00E47677 /* CouchbaseLiteSwift_EE.modulemap */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+		1A20D7352782E47E00834701 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				1A20D73B2782E49000834701 /* prepare_project.sh */,
+			);
+			name = scripts;
+			sourceTree = "<group>";
+		};
+		1A20D73E2782ED6F00834701 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F68CE2744FE0B003A29EB /* Database.swift */,
+				1A4F68CF2744FE0B003A29EB /* DatabaseConfiguration.swift */,
+			);
+			name = database;
+			sourceTree = "<group>";
+		};
+		1A20D73F2782ED7600834701 /* document */ = {
+			isa = PBXGroup;
+			children = (
+				1A20D7492782EE3200834701 /* Document.swift */,
+				1A64D51A278407920053349E /* MutableDocument.swift */,
+			);
+			name = document;
+			sourceTree = "<group>";
+		};
+		1A4F68A52744FD63003A29EB = {
+			isa = PBXGroup;
+			children = (
+				1A625964276C633400769586 /* ee */,
+				1A4F68CD2744FDFE003A29EB /* source */,
+				1A1E1CD32769E2B300972508 /* support */,
+				1A4F68D22744FE12003A29EB /* tests */,
+				1A4F68EC274504CD003A29EB /* xcconfigs */,
+				1A4F68D527450382003A29EB /* vendor */,
+				1A4F68B02744FD63003A29EB /* Products */,
+				1A4F68EE27450652003A29EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A4F68B02744FD63003A29EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F68AF2744FD63003A29EB /* CouchbaseLiteSwift.framework */,
+				1A4F68B92744FD63003A29EB /* CouchbaseLiteSwiftTests.xctest */,
+				1AE4F12A277438800029AD74 /* CouchbaseLiteSwift.framework */,
+				1AE4F1382774388B0029AD74 /* CouchbaseLiteSwiftTests_EE.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A4F68CD2744FDFE003A29EB /* source */ = {
+			isa = PBXGroup;
+			children = (
+				1A64D523278427860053349E /* shared */,
+				1A20D73F2782ED7600834701 /* document */,
+				1A20D73E2782ED6F00834701 /* database */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		1A4F68D22744FE12003A29EB /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F68D32744FE24003A29EB /* DatabaseTest.swift */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		1A4F68D527450382003A29EB /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F68D62745039D003A29EB /* CBL_C.xcodeproj */,
+			);
+			name = vendor;
+			sourceTree = "<group>";
+		};
+		1A4F68D72745039D003A29EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F68E12745039D003A29EB /* libcblite-static.a */,
+				1A4F68E32745039D003A29EB /* libcblite.dylib */,
+				1A4F68E52745039D003A29EB /* CouchbaseLite.framework */,
+				1A4F68E72745039D003A29EB /* CBL_Tests */,
+				1A4F68E92745039D003A29EB /* CouchbaseLiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A4F68EC274504CD003A29EB /* xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				1A4F68ED274504FF003A29EB /* Project.xcconfig */,
+				1A075C91276B3B4600E47677 /* Project_Debug.xcconfig */,
+				1A075C93276B3B4600E47677 /* Project_Debug_EE.xcconfig */,
+				1A075C94276B3B4600E47677 /* Project_Release.xcconfig */,
+				1A075C92276B3B4600E47677 /* Project_Release_EE.xcconfig */,
+			);
+			name = xcconfigs;
+			sourceTree = "<group>";
+		};
+		1A4F68EE27450652003A29EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A625964276C633400769586 /* ee */ = {
+			isa = PBXGroup;
+			children = (
+				1A20D7352782E47E00834701 /* scripts */,
+				1AE4F13D2774434E0029AD74 /* tests */,
+				1A62596A276C634200769586 /* database */,
+			);
+			name = ee;
+			sourceTree = "<group>";
+		};
+		1A62596A276C634200769586 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				1A62596B276C634200769586 /* EncryptionKey.swift */,
+			);
+			name = database;
+			path = ../source/database;
+			sourceTree = "<group>";
+		};
+		1A64D523278427860053349E /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				1A64D524278427930053349E /* CouchbaseLiteError.swift */,
+			);
+			name = shared;
+			sourceTree = "<group>";
+		};
+		1AE4F13D2774434E0029AD74 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE4F13E277443680029AD74 /* DatabaseTest_EE.swift */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A4F68AA2744FD63003A29EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1E1CDF2769F6CC00972508 /* CouchbaseLiteSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE4F118277438800029AD74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE4F119277438800029AD74 /* CouchbaseLiteSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A4F68AE2744FD63003A29EB /* CouchbaseLiteSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A4F68C32744FD63003A29EB /* Build configuration list for PBXNativeTarget "CouchbaseLiteSwift" */;
+			buildPhases = (
+				1A4F68AA2744FD63003A29EB /* Headers */,
+				1A4F68AB2744FD63003A29EB /* Sources */,
+				1A4F68AC2744FD63003A29EB /* Frameworks */,
+				1A4F68AD2744FD63003A29EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A210E93274E3E2D00D07BA2 /* PBXTargetDependency */,
+			);
+			name = CouchbaseLiteSwift;
+			productName = CouchbaseLiteSwift;
+			productReference = 1A4F68AF2744FD63003A29EB /* CouchbaseLiteSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A4F68B82744FD63003A29EB /* CouchbaseLiteSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A4F68C62744FD63003A29EB /* Build configuration list for PBXNativeTarget "CouchbaseLiteSwiftTests" */;
+			buildPhases = (
+				1A4F68B52744FD63003A29EB /* Sources */,
+				1A4F68B62744FD63003A29EB /* Frameworks */,
+				1A4F68B72744FD63003A29EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A4F68BC2744FD63003A29EB /* PBXTargetDependency */,
+			);
+			name = CouchbaseLiteSwiftTests;
+			productName = CouchbaseLiteSwiftTests;
+			productReference = 1A4F68B92744FD63003A29EB /* CouchbaseLiteSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AE4F115277438800029AD74 /* CouchbaseLiteSwift_EE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE4F125277438800029AD74 /* Build configuration list for PBXNativeTarget "CouchbaseLiteSwift_EE" */;
+			buildPhases = (
+				1AE4F118277438800029AD74 /* Headers */,
+				1AE4F11A277438800029AD74 /* Sources */,
+				1AE4F11E277438800029AD74 /* Frameworks */,
+				1AE4F120277438800029AD74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE4F116277438800029AD74 /* PBXTargetDependency */,
+			);
+			name = CouchbaseLiteSwift_EE;
+			productName = CouchbaseLiteSwift;
+			productReference = 1AE4F12A277438800029AD74 /* CouchbaseLiteSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1AE4F12B2774388B0029AD74 /* CouchbaseLiteSwiftTests_EE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE4F1332774388B0029AD74 /* Build configuration list for PBXNativeTarget "CouchbaseLiteSwiftTests_EE" */;
+			buildPhases = (
+				1AE4F12E2774388B0029AD74 /* Sources */,
+				1AE4F1302774388B0029AD74 /* Frameworks */,
+				1AE4F1322774388B0029AD74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE4F13C277441980029AD74 /* PBXTargetDependency */,
+			);
+			name = CouchbaseLiteSwiftTests_EE;
+			productName = CouchbaseLiteSwiftTests;
+			productReference = 1AE4F1382774388B0029AD74 /* CouchbaseLiteSwiftTests_EE.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A4F68A62744FD63003A29EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					1A4F68AE2744FD63003A29EB = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1250;
+					};
+					1A4F68B82744FD63003A29EB = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
+				};
+			};
+			buildConfigurationList = 1A4F68A92744FD63003A29EB /* Build configuration list for PBXProject "CouchbaseLiteSwift" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A4F68A52744FD63003A29EB;
+			productRefGroup = 1A4F68B02744FD63003A29EB /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1A4F68D72745039D003A29EB /* Products */;
+					ProjectRef = 1A4F68D62745039D003A29EB /* CBL_C.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1A4F68AE2744FD63003A29EB /* CouchbaseLiteSwift */,
+				1A4F68B82744FD63003A29EB /* CouchbaseLiteSwiftTests */,
+				1AE4F115277438800029AD74 /* CouchbaseLiteSwift_EE */,
+				1AE4F12B2774388B0029AD74 /* CouchbaseLiteSwiftTests_EE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1A4F68E12745039D003A29EB /* libcblite-static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcblite-static.a";
+			remoteRef = 1A4F68E02745039D003A29EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A4F68E32745039D003A29EB /* libcblite.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libcblite.dylib;
+			remoteRef = 1A4F68E22745039D003A29EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A4F68E52745039D003A29EB /* CouchbaseLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CouchbaseLite.framework;
+			remoteRef = 1A4F68E42745039D003A29EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A4F68E72745039D003A29EB /* CBL_Tests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = CBL_Tests;
+			remoteRef = 1A4F68E62745039D003A29EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A4F68E92745039D003A29EB /* CouchbaseLiteTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CouchbaseLiteTests.xctest;
+			remoteRef = 1A4F68E82745039D003A29EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A4F68AD2744FD63003A29EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A075C96276B3B4600E47677 /* Project_Release_EE.xcconfig in Resources */,
+				1A075C95276B3B4600E47677 /* Project_Debug.xcconfig in Resources */,
+				1A075C98276B3B4600E47677 /* Project_Release.xcconfig in Resources */,
+				1A075C97276B3B4600E47677 /* Project_Debug_EE.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4F68B72744FD63003A29EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE4F120277438800029AD74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE4F121277438800029AD74 /* Project_Release_EE.xcconfig in Resources */,
+				1AE4F122277438800029AD74 /* Project_Debug.xcconfig in Resources */,
+				1AE4F123277438800029AD74 /* Project_Release.xcconfig in Resources */,
+				1AE4F124277438800029AD74 /* Project_Debug_EE.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE4F1322774388B0029AD74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A4F68AB2744FD63003A29EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4F68D02744FE0B003A29EB /* Database.swift in Sources */,
+				1A64D51B278407920053349E /* MutableDocument.swift in Sources */,
+				1A64D525278427930053349E /* CouchbaseLiteError.swift in Sources */,
+				1A4F68D12744FE0B003A29EB /* DatabaseConfiguration.swift in Sources */,
+				1A20D74A2782EE3300834701 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4F68B52744FD63003A29EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4F68D42744FE25003A29EB /* DatabaseTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE4F11A277438800029AD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE4F11B277438800029AD74 /* Database.swift in Sources */,
+				1A20D74B2782EE3300834701 /* Document.swift in Sources */,
+				1A64D526278427930053349E /* CouchbaseLiteError.swift in Sources */,
+				1A64D51C278407920053349E /* MutableDocument.swift in Sources */,
+				1AE4F11C277438800029AD74 /* DatabaseConfiguration.swift in Sources */,
+				1AE4F11D277438800029AD74 /* EncryptionKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE4F12E2774388B0029AD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE4F13F277443680029AD74 /* DatabaseTest_EE.swift in Sources */,
+				1AE4F12F2774388B0029AD74 /* DatabaseTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A210E93274E3E2D00D07BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CBL_C Framework";
+			targetProxy = 1A210E92274E3E2D00D07BA2 /* PBXContainerItemProxy */;
+		};
+		1A4F68BC2744FD63003A29EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A4F68AE2744FD63003A29EB /* CouchbaseLiteSwift */;
+			targetProxy = 1A4F68BB2744FD63003A29EB /* PBXContainerItemProxy */;
+		};
+		1AE4F116277438800029AD74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CBL_C Framework";
+			targetProxy = 1AE4F117277438800029AD74 /* PBXContainerItemProxy */;
+		};
+		1AE4F13C277441980029AD74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE4F115277438800029AD74 /* CouchbaseLiteSwift_EE */;
+			targetProxy = 1AE4F13B277441980029AD74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A075C89276B37A100E47677 /* Debug_EE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4F68ED274504FF003A29EB /* Project.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug_EE;
+		};
+		1A075C8A276B37A100E47677 /* Debug_EE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C91276B3B4600E47677 /* Project_Debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug_EE;
+		};
+		1A075C8B276B37A100E47677 /* Debug_EE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C91276B3B4600E47677 /* Project_Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug_EE;
+		};
+		1A075C8C276B37AF00E47677 /* Release_EE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4F68ED274504FF003A29EB /* Project.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release_EE;
+		};
+		1A075C8D276B37AF00E47677 /* Release_EE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C94276B3B4600E47677 /* Project_Release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release_EE;
+		};
+		1A075C8E276B37AF00E47677 /* Release_EE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C94276B3B4600E47677 /* Project_Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release_EE;
+		};
+		1A4F68C12744FD63003A29EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4F68ED274504FF003A29EB /* Project.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A4F68C22744FD63003A29EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4F68ED274504FF003A29EB /* Project.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A4F68C42744FD63003A29EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C91276B3B4600E47677 /* Project_Debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A4F68C52744FD63003A29EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C94276B3B4600E47677 /* Project_Release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwift;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A4F68C72744FD63003A29EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C91276B3B4600E47677 /* Project_Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A4F68C82744FD63003A29EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C94276B3B4600E47677 /* Project_Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AE4F126277438800029AD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C93276B3B4600E47677 /* Project_Debug_EE.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwift;
+				PRODUCT_NAME = "${inherited}";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AE4F127277438800029AD74 /* Debug_EE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C93276B3B4600E47677 /* Project_Debug_EE.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwift;
+				PRODUCT_NAME = "${inherited}";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug_EE;
+		};
+		1AE4F128277438800029AD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C92276B3B4600E47677 /* Project_Release_EE.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwift;
+				PRODUCT_NAME = "${inherited}";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AE4F129277438800029AD74 /* Release_EE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C92276B3B4600E47677 /* Project_Release_EE.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwift;
+				PRODUCT_NAME = "${inherited}";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release_EE;
+		};
+		1AE4F1342774388B0029AD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C93276B3B4600E47677 /* Project_Debug_EE.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AE4F1352774388B0029AD74 /* Debug_EE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C93276B3B4600E47677 /* Project_Debug_EE.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug_EE;
+		};
+		1AE4F1362774388B0029AD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C92276B3B4600E47677 /* Project_Release_EE.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AE4F1372774388B0029AD74 /* Release_EE */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A075C92276B3B4600E47677 /* Project_Release_EE.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2Q372V7W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.couchbase.CouchbaseLiteSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release_EE;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A4F68A92744FD63003A29EB /* Build configuration list for PBXProject "CouchbaseLiteSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4F68C12744FD63003A29EB /* Debug */,
+				1A075C89276B37A100E47677 /* Debug_EE */,
+				1A4F68C22744FD63003A29EB /* Release */,
+				1A075C8C276B37AF00E47677 /* Release_EE */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A4F68C32744FD63003A29EB /* Build configuration list for PBXNativeTarget "CouchbaseLiteSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4F68C42744FD63003A29EB /* Debug */,
+				1A075C8A276B37A100E47677 /* Debug_EE */,
+				1A4F68C52744FD63003A29EB /* Release */,
+				1A075C8D276B37AF00E47677 /* Release_EE */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A4F68C62744FD63003A29EB /* Build configuration list for PBXNativeTarget "CouchbaseLiteSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4F68C72744FD63003A29EB /* Debug */,
+				1A075C8B276B37A100E47677 /* Debug_EE */,
+				1A4F68C82744FD63003A29EB /* Release */,
+				1A075C8E276B37AF00E47677 /* Release_EE */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE4F125277438800029AD74 /* Build configuration list for PBXNativeTarget "CouchbaseLiteSwift_EE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE4F126277438800029AD74 /* Debug */,
+				1AE4F127277438800029AD74 /* Debug_EE */,
+				1AE4F128277438800029AD74 /* Release */,
+				1AE4F129277438800029AD74 /* Release_EE */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE4F1332774388B0029AD74 /* Build configuration list for PBXNativeTarget "CouchbaseLiteSwiftTests_EE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE4F1342774388B0029AD74 /* Debug */,
+				1AE4F1352774388B0029AD74 /* Debug_EE */,
+				1AE4F1362774388B0029AD74 /* Release */,
+				1AE4F1372774388B0029AD74 /* Release_EE */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A4F68A62744FD63003A29EB /* Project object */;
+}
